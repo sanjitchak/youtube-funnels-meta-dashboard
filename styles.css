@@ -270,3 +270,28 @@ input[type=checkbox]:checked{background:var(--meta-blue);border-color:var(--meta
 tfoot td{height:70px}
 @media(max-width:1250px){#account-alert{padding-inline:18px}.account-alert-copy small{display:none}#account{width:310px}#tabs [role=tab]{width:230px}}
 @media(max-width:850px){#sidebar{width:57px;padding-inline:7px}#sidebar button{width:42px}#sidebar hr{width:40px}#app{margin-left:57px;margin-right:0}#account-alert{height:58px;min-height:58px;padding:8px 12px}.account-alert-copy strong{font-size:13px}.account-alert-action{display:none!important}#header{height:64px;min-height:64px}#views{min-height:62px}#views button{height:44px}#tabs [role=tab]{height:52px;font-size:14px}#rightbar{display:none}}
+
+/* Final reference palette. Keep this block last so legacy component rules cannot mute active states. */
+:root{
+  --meta-blue:#0978BE;
+  --meta-blue-hover:#0869a6;
+  --meta-blue-soft:#e6f2fa;
+  --meta-canvas:#f0f2f5;
+  --meta-header:#f7f3fa;
+  --meta-ink:#1c2b33;
+  --meta-border:#c9d1d8;
+}
+body{background:var(--meta-canvas);color:var(--meta-ink)}
+#account-alert{background:var(--meta-blue)}
+#header{background:var(--meta-header)}
+#workspace{background:var(--meta-canvas)}
+button.primary,#views button.primary,.tab-count{background:var(--meta-blue);border-color:var(--meta-blue);color:#fff}
+button.primary:hover,#views button.primary:hover{background:var(--meta-blue-hover);border-color:var(--meta-blue-hover)}
+.text-link,td.name .name-link,#views button.active,#tabs [role=tab][aria-selected=true],.pin,.menu-item.selected,.drawer-tabs button.active{color:var(--meta-blue)}
+#views button.active{border-color:var(--meta-blue)}
+input[type=checkbox]:checked{background:var(--meta-blue);border-color:var(--meta-blue)}
+.switch[aria-checked=true],.switch:disabled[aria-checked=true]{background:var(--meta-blue)!important;border-color:var(--meta-blue)!important;opacity:1!important;filter:none!important}
+.switch[aria-checked=true]:before,.switch:disabled[aria-checked=true]:before{background:#fff!important}
+tbody tr:hover td{background:#eef5fa}
+tbody tr.selected td{background:var(--meta-blue-soft)}
+.dot.active{background:#31a24c}
