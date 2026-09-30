@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="YouTube Funnels">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff4d5a"/><stop offset="1" stop-color="#e21d3d"/></linearGradient></defs>
+  <rect width="256" height="256" rx="56" fill="#071a33"/>
+  <path d="M43 55h170l-54 62v55l-62 34v-89z" fill="url(#g)"/>
+  <path d="M111 91l54 31-54 31z" fill="#fff"/>
+  <circle cx="191" cy="190" r="20" fill="#40d9ff"/>
+</svg>
